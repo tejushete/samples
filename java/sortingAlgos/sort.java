@@ -120,7 +120,7 @@ class Scannersort{
 			    algos.benchmarkAll();
 			 	break;
 			case 7:
-				System.out.println("Start Over");
+				System.out.println("Start Over ");
 				break;
 			case 8:
 				System.out.println("Exit");
