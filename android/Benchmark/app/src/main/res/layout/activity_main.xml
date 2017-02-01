@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.felight.benchmark.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Array Size"
+        android:textSize="20dp"
+        android:ems="10"
+        android:id="@+id/etArraySize" />
+
+    <TextView
+        android:text="Choose Complexity"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/tvChooseComplexity"
+        android:layout_weight="0.10"
+        android:textSize="20dp"/>
+
+    <RadioButton
+        android:text="Best Case"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbBestCase" />
+
+    <RadioButton
+        android:text="Average Case "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbAverageCase"
+        android:checked="true" />
+
+    <RadioButton
+        android:text="Worst Case"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbWorstCase" />
+
+    <Button
+        android:text="Generate Array"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff00ff00"
+        android:background="#ffff0000"
+        android:id="@+id/btnGenerateArray" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:text="Choose Algo"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/tvChooseAlgo"
+            android:layout_weight="0.10" />
+        <TextView
+            android:text="Time"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:gravity="right"
+            android:layout_marginRight="40dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:id="@+id/tvTime"
+            android:layout_weight="0.10" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <Button
+            android:text="Bubble Sort"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBubbleSort" />
+        <TextView
+            android:text="-- ms"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:gravity="right"
+            android:layout_marginRight="40dp"
+            android:textSize="20dp"
+            android:id="@+id/tvBubbleSort"
+            android:layout_weight="0.10"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <Button
+            android:text="Selection Sort"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSelectionSort" />
+        <TextView
+            android:text="-- ms"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:gravity="right"
+            android:layout_marginRight="40dp"
+            android:textSize="20dp"
+            android:id="@+id/tvSelectionSort"
+            android:layout_weight="0.10"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <Button
+            android:text="Insertion Sort"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnInsertionSort" />
+        <TextView
+            android:text="-- ms"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:gravity="right"
+            android:layout_marginRight="40dp"
+            android:textSize="20dp"
+            android:id="@+id/tvInsertionSort"
+            android:layout_weight="0.10"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <Button
+            android:text="Merge Sort"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMergeSort" />
+        <TextView
+            android:text="-- ms"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:gravity="right"
+            android:layout_marginRight="40dp"
+            android:textSize="20dp"
+            android:id="@+id/tvMergeSort"
+            android:layout_weight="0.10"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:text="Benchmark All"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBenchmarkAll" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
