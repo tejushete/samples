@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 
 /**
@@ -108,6 +109,8 @@ public class ShopFragment extends Fragment {
                 ActionBar actionBar = ((AppCompatActivity) getActivity()).getSupportActionBar();
                 actionBar.setTitle("Musical Instruments");
 
+
+
             }
         });
 
@@ -119,6 +122,32 @@ public class ShopFragment extends Fragment {
 
         actionBar.setCustomView(v);
 
+        View cv = actionBar.getCustomView();
+
+        ImageView ivNoti = (ImageView)cv.findViewById(R.id.ivNotiShopActionBar);
+        ivNoti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NotificationFragment notificationFragment = new NotificationFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.content_main, notificationFragment).commit();
+                NavigationView navigationView = (NavigationView) getActivity().findViewById(R.id.nav_view);
+                navigationView.getMenu().findItem(R.id.nav_notifications).setChecked(true);
+            }
+        });
+        ImageView ivCart =(ImageView)cv.findViewById(R.id.ivCartShopActionBar);
+        ivCart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                CartFragment cartFragment = new CartFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.content_main, cartFragment).commit();
+                NavigationView navigationView = (NavigationView) getActivity().findViewById(R.id.nav_view);
+                navigationView.getMenu().findItem(R.id.nav_myCart).setChecked(true);
+            }
+        });
 
         return view;
     }

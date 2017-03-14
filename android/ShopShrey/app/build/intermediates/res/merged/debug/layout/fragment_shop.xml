@@ -122,4 +122,10 @@
     </LinearLayout>
     </LinearLayout>
 
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_gravity="center"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/shop_home"></ImageView>
 </FrameLayout>

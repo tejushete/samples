@@ -3,13 +3,20 @@ package com.example.shopshrey;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
+import android.widget.ImageView;
 
 
 /**
@@ -35,6 +42,41 @@ public class MusicalFragment extends Fragment implements AdapterView.OnItemClick
 //        ImageView loading = (ImageView)view.findViewById(R.id.ivGridViewLoading);
 //        Animation rotate = AnimationUtils.loadAnimation(this.getActivity(),R.anim.rotate_animation);
 //        loading.startAnimation(rotate);
+
+        ActionBar actionBar = ((AppCompatActivity) getActivity()).getSupportActionBar();
+        actionBar.setDisplayShowCustomEnabled(true);
+        actionBar.setTitle("Musical Instrument");
+        LayoutInflater inflator = (LayoutInflater) getActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View v = inflator.inflate(R.layout.musical_action_bar, null);
+        actionBar.setCustomView(v);
+        View cv = actionBar.getCustomView();
+
+        ImageView ivNoti = (ImageView)cv.findViewById(R.id.ivNotiMusicalActionBar);
+        ivNoti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NotificationFragment notificationFragment = new NotificationFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.content_main, notificationFragment).commit();
+                NavigationView navigationView = (NavigationView) getActivity().findViewById(R.id.nav_view);
+                navigationView.getMenu().findItem(R.id.nav_notifications).setChecked(true);
+
+            }
+        });
+        ImageView ivCart =(ImageView)cv.findViewById(R.id.ivCartMusicalActionBar);
+        ivCart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                CartFragment cartFragment = new CartFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.content_main, cartFragment).commit();
+                NavigationView navigationView = (NavigationView) getActivity().findViewById(R.id.nav_view);
+                navigationView.getMenu().findItem(R.id.nav_myCart).setChecked(true);
+
+            }
+        });
 
 
         return view;

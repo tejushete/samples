@@ -68,6 +68,10 @@
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
+        "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\empty_cart.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\drawable\\empty_cart.png"
+    },
+    {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back_press.png",
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\drawable\\back_press.png"
     },
@@ -216,6 +220,10 @@
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
+        "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\empty_wishlist.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\drawable\\empty_wishlist.png"
+    },
+    {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
     },
@@ -230,6 +238,10 @@
     {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shop_home.png",
+        "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\drawable\\shop_home.png"
     },
     {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rupee.png",

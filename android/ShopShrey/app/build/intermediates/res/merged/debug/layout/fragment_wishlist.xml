@@ -4,7 +4,41 @@
     android:layout_height="match_parent"
     tools:context="com.example.shopshrey.WishlistFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/llNoWishList"
+        android:visibility="visible"
+        android:orientation="vertical">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/empty_wishlist"
+            android:scaleType="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="No items added to wishlist!"
+            android:textStyle="bold|italic"
+            android:textColor="#ffff00ff"
+            android:textSize="28dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"></LinearLayout>
+        <Button
+            android:text="Shop Now"
+            android:layout_gravity="center"
+            android:layout_width="180dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#ff0000AA"
+            android:textColor="#ffffffff"
+            android:layout_height="40dp"
+            android:id="@+id/btnShopNow" />
+
+    </LinearLayout>
 
 </FrameLayout>

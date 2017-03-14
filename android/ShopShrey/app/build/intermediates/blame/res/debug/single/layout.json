@@ -60,6 +60,14 @@
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\layout\\fragment_help.xml"
     },
     {
+        "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\helpcentre_action_bar.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\layout\\helpcentre_action_bar.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\musical_action_bar.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\layout\\musical_action_bar.xml"
+    },
+    {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_select_dialog_material.xml"
     },
@@ -86,6 +94,10 @@
     {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\account_action_bar.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\layout\\account_action_bar.xml"
     },
     {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
@@ -118,6 +130,10 @@
     {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rewards_action_bar.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\layout\\rewards_action_bar.xml"
     },
     {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
@@ -160,6 +176,14 @@
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cart_action_bar.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\layout\\cart_action_bar.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notifications_action_bar.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\layout\\notifications_action_bar.xml"
+    },
+    {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_action_tombstone.xml"
     },
@@ -196,12 +220,20 @@
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\stationary_action_bar.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\layout\\stationary_action_bar.xml"
+    },
+    {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_wishlist.xml",
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\layout\\fragment_wishlist.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fashion_action_bar.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\layout\\fashion_action_bar.xml"
     },
     {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_grid_view_single.xml",
@@ -272,6 +304,10 @@
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
+        "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\legal_action_bar.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\layout\\legal_action_bar.xml"
+    },
+    {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item_separator.xml"
     },
@@ -282,6 +318,10 @@
     {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_furniture.xml",
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\layout\\fragment_furniture.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wishlist_action_bar.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\layout\\wishlist_action_bar.xml"
     },
     {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -302,6 +342,10 @@
     {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orders_action_bar.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\src\\main\\res\\layout\\orders_action_bar.xml"
     },
     {
         "merged": "F:\\Android\\AndroidStudioProjects\\ShopShrey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",

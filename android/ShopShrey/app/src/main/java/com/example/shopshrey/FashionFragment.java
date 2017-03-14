@@ -5,8 +5,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -79,6 +81,41 @@ public class FashionFragment extends Fragment implements AdapterView.OnItemClick
             @Override
             public void onClick(View view) {
                 Log.d("TAG", "<><>");
+            }
+        });
+
+        ActionBar actionBar = ((AppCompatActivity) getActivity()).getSupportActionBar();
+        actionBar.setDisplayShowCustomEnabled(true);
+        actionBar.setTitle("Fashion");
+        LayoutInflater inflator = (LayoutInflater) getActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View v = inflator.inflate(R.layout.fashion_action_bar, null);
+        actionBar.setCustomView(v);
+
+        View cv = actionBar.getCustomView();
+        ImageView ivNoti = (ImageView)cv.findViewById(R.id.ivNotiFashionActionBar);
+        ivNoti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NotificationFragment notificationFragment = new NotificationFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.content_main, notificationFragment).commit();
+                NavigationView navigationView = (NavigationView) getActivity().findViewById(R.id.nav_view);
+                navigationView.getMenu().findItem(R.id.nav_notifications).setChecked(true);
+
+            }
+        });
+        ImageView ivCart =(ImageView)cv.findViewById(R.id.ivCartFashionActionBar);
+        ivCart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                CartFragment cartFragment = new CartFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.content_main, cartFragment).commit();
+                NavigationView navigationView = (NavigationView) getActivity().findViewById(R.id.nav_view);
+                navigationView.getMenu().findItem(R.id.nav_myCart).setChecked(true);
+
             }
         });
         return view;

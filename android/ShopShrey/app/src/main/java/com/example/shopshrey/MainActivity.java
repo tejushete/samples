@@ -148,80 +148,58 @@ public class MainActivity extends AppCompatActivity
             FashionFragment fashionFragment = new FashionFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main, fashionFragment).commit();
-            getSupportActionBar().setTitle("Fashion");
             // Handle the camera action
         } else if (id == R.id.nav_electronics) {
             ElectronicsFragment electronicsFragment = new ElectronicsFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main, electronicsFragment).commit();
-            getSupportActionBar().setTitle("Electronics");
-
-
-
         } else if (id == R.id.nav_home) {
             FurnitureFragment furnitureFragment = new FurnitureFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main, furnitureFragment).commit();
-            getSupportActionBar().setTitle("Home and Furniture");
 
         } else if (id == R.id.nav_books) {
             StationaryFragment stationaryFragment = new StationaryFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main, stationaryFragment).commit();
-            getSupportActionBar().setTitle("Stationary");
 
         } else if (id == R.id.nav_music) {
             MusicalFragment musicalFragment = new MusicalFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main, musicalFragment).commit();
-            getSupportActionBar().setTitle("Musical Instruments");
 
         } else if (id == R.id.nav_notifications) {
             NotificationFragment notificationFragment = new NotificationFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main, notificationFragment).commit();
-            getSupportActionBar().setTitle("Notifications");
-
         }else if (id == R. id.nav_myRewards){
             RewardsFragment rewardsFragment = new RewardsFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main,rewardsFragment).commit();
-            getSupportActionBar().setTitle("My Rewards");
-
         }else if (id == R. id.nav_myCart){
             CartFragment cartFragment = new CartFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main, cartFragment).commit();
-            getSupportActionBar().setTitle("My Cart");
-
         }else if (id == R. id.nav_myWish){
             WishlistFragment wishlistFragment = new WishlistFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main, wishlistFragment).commit();
-            getSupportActionBar().setTitle("My Wishlist");
-
         }else if (id == R. id.nav_orders){
             OrderFragment orderFragment = new OrderFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main, orderFragment).commit();
-            getSupportActionBar().setTitle("My Orders");
-
         }else if (id == R. id.nav_account){
             AccountFragment accountFragment = new AccountFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main, accountFragment).commit();
-            getSupportActionBar().setTitle("My Account");
-
         }else if (id == R. id.nav_help){
             HelpFragment helpFragment = new HelpFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main, helpFragment).commit();
-            getSupportActionBar().setTitle("Help Centre");
         }else if (id == R. id.nav_legal){
             LegalFragment legalFragment = new LegalFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main, legalFragment).commit();
-            getSupportActionBar().setTitle("Legal");
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
