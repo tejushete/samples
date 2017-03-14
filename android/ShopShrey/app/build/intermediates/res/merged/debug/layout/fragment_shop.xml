@@ -1,0 +1,125 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shopshrey.ShopFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"></LinearLayout>
+        <LinearLayout
+            android:layout_width="65dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="65dp"
+                    android:layout_height="70dp"
+
+                    app:srcCompat="@drawable/fashion"
+                    android:background="@drawable/ib_background"
+                    android:clickable="true"
+                    android:id="@+id/ibFashion" />
+            <TextView
+                android:text="Fashion"
+                android:textSize="10dp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvFashion" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="65dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:paddingRight="1dp"
+                app:srcCompat="@drawable/electronics"
+                android:background="@drawable/ib_background"
+                android:clickable="true"
+                android:id="@+id/ibElectronics" />
+        <TextView
+            android:text="Electronics"
+            android:textSize="10dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvElectronics" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="65dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                app:srcCompat="@drawable/livingroom"
+                android:background="@drawable/ib_background"
+                android:clickable="true"
+                android:id="@+id/ibLiving" />
+
+        <TextView
+            android:text="Living"
+            android:textSize="10dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvLivingRoom" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="65dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="65dp"
+                    android:layout_height="70dp"
+                    app:srcCompat="@drawable/stationary"
+                    android:background="@drawable/ib_background"
+                    android:clickable="true"
+                    android:id="@+id/ibStationary" />
+        <TextView
+            android:text="Stationary"
+            android:layout_width="65dp"
+            android:textSize="10dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvStationary" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="65dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="65dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/ib_background"
+                    app:srcCompat="@drawable/guitar"
+                    android:clickable="true"
+                    android:id="@+id/ibMusical" />
+        <TextView
+            android:text="Musical"
+            android:textSize="10dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMusical" />
+    </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

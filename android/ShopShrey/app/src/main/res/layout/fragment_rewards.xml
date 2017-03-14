@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shopshrey.RewardsFragment">
+
+    <LinearLayout
+        android:layout_width="394dp"
+        android:layout_height="245dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="210dp"
+        android:paddingBottom="60dp"
+        android:paddingLeft="30dp"
+android:paddingRight="10dp"
+        app:srcCompat="@drawable/reward2"
+        android:paddingTop="5dp"
+        android:id="@+id/imageView3" />
+        <TextView
+            android:text="No rewards yet!"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="180dp"
+            android:layout_height="49dp"
+            android:id="@+id/textView" />
+
+        <Button
+            android:text="SHOP NOW"
+            android:layout_width="329dp"
+            android:shadowColor="#4CAF50"
+            android:layout_height="85dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="10dp"
+            android:id="@+id/button" />
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
+

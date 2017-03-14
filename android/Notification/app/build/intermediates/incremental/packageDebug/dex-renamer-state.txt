@@ -1,0 +1,7 @@
+#Fri Feb 03 00:40:47 GMT-08:00 2017
+base.0=F\:\\Github\\samples\\android\\Notification\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_77f8e7581108f2998d606b5ad20c0b8379044096
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\Github\\samples\\android\\Notification\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0d7903f4f3dcbf43c4e6c30abcf59c5494179bd7\\classes.dex
+base.1=F\:\\Github\\samples\\android\\Notification\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0d7903f4f3dcbf43c4e6c30abcf59c5494179bd7
+file.0=F\:\\Github\\samples\\android\\Notification\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_77f8e7581108f2998d606b5ad20c0b8379044096\\classes.dex

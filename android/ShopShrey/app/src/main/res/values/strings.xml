@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ShopShrey</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <drawable name="clr_normal">#4CAF50</drawable>
+    <drawable name="clr_pressed">#2E9932</drawable>
+</resources>

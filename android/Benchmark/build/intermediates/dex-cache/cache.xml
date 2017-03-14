@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="F:\Github\samples\android\Benchmark\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="59452f48b965402f55b6c201520382d8bbf55fab">
+        <dex dex="F:\Github\samples\android\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_cb0aa4f302f0f51f322b5b89b1c626689bf8facf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="F:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
         jumboMode="true"
         optimize="true"
@@ -27,6 +36,15 @@
         revision="25.0.1"
         sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
         <dex dex="F:\Android\AndroidStudioProjects\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_7b067fde35d2fd8522c636afd5570a93fb689cd8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\samples\android\Benchmark\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="F:\Github\samples\android\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_12c8ff27cdca669f50f8960fbb71df9b9385c2dc\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,12 +75,57 @@
     </item>
     <item
         is-multidex="true"
+        jar="F:\Github\samples\android\Benchmark\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d46ef1b33e50cc39e47f68395b235ad00ccbdc15">
+        <dex dex="F:\Github\samples\android\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d77331af21e41dd75d87fdcd51c3465abd8f50ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\samples\android\Benchmark\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="F:\Github\samples\android\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_107cea0546ce6279a221fcc85858bd5ef15fb09c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\samples\android\Benchmark\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="F:\Github\samples\android\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_d5aac1108e3707e256cc8ecd51f5fca0875de913\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\samples\android\Benchmark\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="F:\Github\samples\android\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_cbb3ccc9a8ec5096adbcbffdf709165f380b1579\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="F:\Android\AndroidStudioProjects\Benchmark\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
         <dex dex="F:\Android\AndroidStudioProjects\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_458ed4975ca1997e97fc1e88c6d2720299071699\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\samples\android\Benchmark\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\Github\samples\android\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_d5cb4264f17543d4be32cbc23508274fe5ef8a7b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -84,12 +147,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="F:\Github\samples\android\Benchmark\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="F:\Github\samples\android\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_f0d5dbb3ef1780f1c9f69683699b0dd849ab9898\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="F:\Android\AndroidStudioProjects\Benchmark\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
         <dex dex="F:\Android\AndroidStudioProjects\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_e5fa709d9acb979bc0e735b022b510340522349d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\samples\android\Benchmark\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="F:\Github\samples\android\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_2cf63b359d2d3790d86c78ef1c1b6f62307eb4c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\samples\android\Benchmark\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="F:\Github\samples\android\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_69df72df8c103df0bb765ee76869b3c05a947c04\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -108,6 +198,15 @@
         revision="25.0.1"
         sha1="aee64634871d88a419d59eb743c1258a60f19700">
         <dex dex="F:\Android\AndroidStudioProjects\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_3460304759c6fe8aace77ec3023aa92da6061c39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Github\samples\android\Benchmark\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="F:\Github\samples\android\Benchmark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_4daf1afacc6b75ab2acb728e40fd13ef712cc8dc\classes.dex" />
     </item>
 
 </items>

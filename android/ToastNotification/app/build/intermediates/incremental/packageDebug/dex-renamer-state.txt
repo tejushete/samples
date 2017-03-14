@@ -1,0 +1,7 @@
+#Thu Feb 02 10:39:21 GMT-08:00 2017
+base.0=F\:\\Github\\samples\\android\\ToastNotification\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_910744403f4844c5cb06839aa506db53f17f368b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\Github\\samples\\android\\ToastNotification\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b85a23a9ec14d744c66b85fa85aac81f4fdb5794\\classes.dex
+base.1=F\:\\Github\\samples\\android\\ToastNotification\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b85a23a9ec14d744c66b85fa85aac81f4fdb5794
+file.0=F\:\\Github\\samples\\android\\ToastNotification\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_910744403f4844c5cb06839aa506db53f17f368b\\classes.dex
