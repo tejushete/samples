@@ -1,0 +1,7 @@
+#Sat Feb 18 15:17:28 IST 2017
+base.0=F\:\\Android\\AndroidStudioProjects\\Simplecalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5d63693fd69c1b2bb37906b358bddf0c327dd9b6
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=F\:\\Android\\AndroidStudioProjects\\Simplecalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_994719045123b18eda1be55e9e316ca13c4e959e\\classes.dex
+base.1=F\:\\Android\\AndroidStudioProjects\\Simplecalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_994719045123b18eda1be55e9e316ca13c4e959e
+file.0=F\:\\Android\\AndroidStudioProjects\\Simplecalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5d63693fd69c1b2bb37906b358bddf0c327dd9b6\\classes.dex

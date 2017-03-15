@@ -68,5 +68,12 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnConvert" />
 
+    <TextView
+        android:text="TextView"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvListen"
+        android:layout_weight="0.26" />
+
 
 </LinearLayout>

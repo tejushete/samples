@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.0_1f0c8e58fb5db3c4382a1420c0e31c7013171963.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.0_15ea15886f2c68bb7b1d4eb2a976a1faa87bf8e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.0_1b72635b67690cc161cd87a301b532c1a02ed558.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.0_5db2d8d15994da0ecc3ca971c5a2a67d5a612239.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.0_c390b75d8981143f37abf3d983dd46e1b984d345.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.0_d7940aabf569f0af521e712d2f60fa1ec3130bac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.0_19de6df632f4307852a72fa2f7b690e257808e82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.0_361a771bf5824d185a4476d225429747c87e9605.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.0_5fa1a6994f8a0722837586d34cd5fda3c0489b3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="F:\Android\AndroidStudioProjects\WifiOnOffUsingToggleSwitch\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_08aac59e05a8a1846997d2e46173fc84a838eb9d.jar" />
+    </item>
+
+</items>

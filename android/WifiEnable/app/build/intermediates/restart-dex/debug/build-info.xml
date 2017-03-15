@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="41251377406206"
+    token="5034747910941977177"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="186" />
+    <task
+        name="instant-run-dex"
+        duration="43" />
+    <task
+        name="instant-run-transform"
+        duration="79" />
+    <task
+        name="verifier"
+        duration="4" />
+
+    <artifact
+        location="F:\Android\AndroidStudioProjects\WifiEnable\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="37589516877677"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="F:\Android\AndroidStudioProjects\WifiEnable\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="41187139747178"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="F:\Android\AndroidStudioProjects\WifiEnable\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="41234002266311"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="F:\Android\AndroidStudioProjects\WifiEnable\app\build\intermediates\builds\debug\41234002266311\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="41251377406206"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="F:\Android\AndroidStudioProjects\WifiEnable\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

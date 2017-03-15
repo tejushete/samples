@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.felight.animation.MainActivity">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/tejuu"
+        android:id="@+id/ivResult"
+        android:layout_marginBottom="337dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="ROTATE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnZoomOut"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/btnRotate" />
+
+    <Button
+        android:text="SLIDE DOWN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnSlideUp"
+        android:layout_alignLeft="@+id/btnRotate"
+        android:layout_alignStart="@+id/btnRotate"
+        android:id="@+id/btnSlideDown" />
+
+    <Button
+        android:text="SHAKE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShake"
+        android:layout_alignBaseline="@+id/btnBounce"
+        android:layout_alignBottom="@+id/btnBounce"
+        android:layout_alignLeft="@+id/btnSlideUp"
+        android:layout_alignStart="@+id/btnSlideUp" />
+
+    <Button
+        android:text="ZOOM OUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnZoomOut"
+        android:layout_alignBaseline="@+id/btnZoomIn"
+        android:layout_alignBottom="@+id/btnZoomIn"
+        android:layout_alignLeft="@+id/btnFadeOut"
+        android:layout_alignStart="@+id/btnFadeOut" />
+
+    <Button
+        android:text="BOUNCE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBounce"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnMove"
+        android:layout_alignStart="@+id/btnMove"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:text="MOVE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMove"
+        android:layout_above="@+id/btnBounce"
+        android:layout_alignLeft="@+id/btnZoomIn"
+        android:layout_alignStart="@+id/btnZoomIn" />
+
+    <Button
+        android:text="ZOOM IN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnZoomIn"
+        android:layout_above="@+id/btnMove"
+        android:layout_alignLeft="@+id/btnFadeIn"
+        android:layout_alignStart="@+id/btnFadeIn"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:text="FADE IN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFadeIn"
+        android:layout_above="@+id/btnZoomOut"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp" />
+
+    <Button
+        android:text="CROSS FADE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCrossFade"
+        android:layout_above="@+id/btnZoomIn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="FADE OUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFadeOut"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_above="@+id/btnZoomOut"
+        android:layout_toLeftOf="@+id/btnCrossFade"
+        android:layout_toStartOf="@+id/btnCrossFade" />
+
+    <Button
+        android:text="SLIDE UP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSlideUp"
+        android:layout_above="@+id/btnShake"
+        android:layout_alignLeft="@+id/btnZoomOut"
+        android:layout_alignStart="@+id/btnZoomOut" />
+
+</RelativeLayout>

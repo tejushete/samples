@@ -1,0 +1,7 @@
+#Thu Feb 09 15:19:16 IST 2017
+base.0=F\:\\Android\\AndroidStudioProjects\\SensorValues\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_01d36e7ac3947d7fa24038c11cf380b3ee6cdf2b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\Android\\AndroidStudioProjects\\SensorValues\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c003801b1e16103d81aaf623020c510c99909e66\\classes.dex
+base.1=F\:\\Android\\AndroidStudioProjects\\SensorValues\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c003801b1e16103d81aaf623020c510c99909e66
+file.0=F\:\\Android\\AndroidStudioProjects\\SensorValues\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_01d36e7ac3947d7fa24038c11cf380b3ee6cdf2b\\classes.dex

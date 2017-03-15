@@ -1,0 +1,7 @@
+#Thu Feb 23 22:56:02 IST 2017
+base.0=F\:\\Android\\AndroidStudioProjects\\SplashScreen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_db363a658c2b5d76dacaa963fab3ba8392df545d
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=F\:\\Android\\AndroidStudioProjects\\SplashScreen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_29466095c80f0310d1f578fbfb5e6537dc84959d\\classes.dex
+base.1=F\:\\Android\\AndroidStudioProjects\\SplashScreen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_29466095c80f0310d1f578fbfb5e6537dc84959d
+file.0=F\:\\Android\\AndroidStudioProjects\\SplashScreen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_db363a658c2b5d76dacaa963fab3ba8392df545d\\classes.dex

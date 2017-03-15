@@ -1,0 +1,7 @@
+#Fri Feb 03 23:00:39 IST 2017
+base.0=F\:\\Android\\AndroidStudioProjects\\AllNotification\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f75df620bf8439dd8dde61465b70a284d7de3240
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=F\:\\Android\\AndroidStudioProjects\\AllNotification\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bfcd7cd3e3f1290bedb04d7521d3d0a6bd6a550d\\classes.dex
+base.1=F\:\\Android\\AndroidStudioProjects\\AllNotification\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bfcd7cd3e3f1290bedb04d7521d3d0a6bd6a550d
+file.0=F\:\\Android\\AndroidStudioProjects\\AllNotification\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f75df620bf8439dd8dde61465b70a284d7de3240\\classes.dex

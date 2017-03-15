@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\zoomin.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\src\\main\\res\\anim\\zoomin.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fadeout.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\src\\main\\res\\anim\\fadeout.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slideup.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\src\\main\\res\\anim\\slideup.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bounce.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\src\\main\\res\\anim\\bounce.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\crossfade.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\src\\main\\res\\anim\\crossfade.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slidedown.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\src\\main\\res\\anim\\slidedown.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\zoomout.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\src\\main\\res\\anim\\zoomout.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\moveltor.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\src\\main\\res\\anim\\moveltor.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\src\\main\\res\\anim\\rotate.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fadein.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\src\\main\\res\\anim\\fadein.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\shake.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\src\\main\\res\\anim\\shake.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "F:\\Android\\AndroidStudioProjects\\Animation\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\anim\\abc_popup_enter.xml"
+    }
+]

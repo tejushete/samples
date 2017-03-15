@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e21f750f89f5e5aa89c51aee2fe798b254afe014">
+        <dex dex="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_aaf7745d4de675b1d011665075b73cdf00f46a5a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_d36cb7e0b945fc69ce5f6744495a3c1c170ee721\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_08aac59e05a8a1846997d2e46173fc84a838eb9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_be0d29ea9ff350e13e601ea58a30de2b54052ba0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_9ebae1aaa7aa1719b879a902320c8c3ede5b4953\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_86819017c0b802d842aee15e07c2e228bed540f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_c2f52a0b76c061158d5c1544f89da9c32500dcc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_aa9ae0f635e966de46ccd6c9ec3e342f437919ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_5429cbdbc2e706112ce19eb30323d2226bc35cb4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_e82b811f23b14ec299d049773ae57e23bd51fe01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45c3853a8a5dd524e7f0333961c773ecde034e58">
+        <dex dex="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1c859046fac3ba71f843f04787c97893ca5646a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="F:\Android\AndroidStudioProjects\AsynTask\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_904a024e3707ecbb32cb9c99a92518920b49291e\classes.dex" />
+    </item>
+
+</items>

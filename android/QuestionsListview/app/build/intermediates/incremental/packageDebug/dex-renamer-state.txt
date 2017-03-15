@@ -1,0 +1,7 @@
+#Thu Feb 16 00:15:50 IST 2017
+base.0=F\:\\Android\\AndroidStudioProjects\\QuestionsListview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_931de37212bd3200bc9f397b4d7370300cd1e0d9
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\Android\\AndroidStudioProjects\\QuestionsListview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_06eeffef48d897f4c8bd07b21a1c85dd3aafa88f\\classes.dex
+base.1=F\:\\Android\\AndroidStudioProjects\\QuestionsListview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_06eeffef48d897f4c8bd07b21a1c85dd3aafa88f
+file.0=F\:\\Android\\AndroidStudioProjects\\QuestionsListview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_931de37212bd3200bc9f397b4d7370300cd1e0d9\\classes.dex

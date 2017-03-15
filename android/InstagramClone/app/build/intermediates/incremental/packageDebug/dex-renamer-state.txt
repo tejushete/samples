@@ -1,0 +1,7 @@
+#Sun Feb 19 18:18:18 IST 2017
+base.0=F\:\\Android\\AndroidStudioProjects\\InstagramClone\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_97b58bc645da849ea3e5e26180dd691e2cfed95b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\Android\\AndroidStudioProjects\\InstagramClone\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_12adaff2dd975a221660bd3b76a8175aac66ff35\\classes.dex
+base.1=F\:\\Android\\AndroidStudioProjects\\InstagramClone\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_12adaff2dd975a221660bd3b76a8175aac66ff35
+file.0=F\:\\Android\\AndroidStudioProjects\\InstagramClone\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_97b58bc645da849ea3e5e26180dd691e2cfed95b\\classes.dex

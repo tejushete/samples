@@ -1,0 +1,7 @@
+#Wed Feb 15 23:58:47 IST 2017
+base.0=F\:\\Android\\AndroidStudioProjects\\Bluetooth\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8dffdcd89b753b0fd0f67963b44dea3582ac06ea
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\Android\\AndroidStudioProjects\\Bluetooth\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_98a7a3450ee7233fbf56acc776938ae604f2e65c\\classes.dex
+base.1=F\:\\Android\\AndroidStudioProjects\\Bluetooth\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_98a7a3450ee7233fbf56acc776938ae604f2e65c
+file.0=F\:\\Android\\AndroidStudioProjects\\Bluetooth\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8dffdcd89b753b0fd0f67963b44dea3582ac06ea\\classes.dex

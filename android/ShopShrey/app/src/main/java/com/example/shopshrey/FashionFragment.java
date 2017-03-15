@@ -158,7 +158,6 @@ public class FashionFragment extends Fragment implements AdapterView.OnItemClick
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
             if (convertView == null) {
-
                 grid = new View(mContext);
                 grid = inflater.inflate(R.layout.product_grid_view_single, null);
             } else {

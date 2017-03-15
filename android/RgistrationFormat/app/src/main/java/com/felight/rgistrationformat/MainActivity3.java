@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
@@ -130,11 +132,22 @@ public class MainActivity3 extends AppCompatActivity {
         if(phone2.isEmpty()){
             check = false;
             etMobile.setError("Mobile is empty.");
+            final Animation shake= AnimationUtils.loadAnimation(this,R.anim.shake);
+            etMobile.startAnimation(shake);
             return check;
         }
         if (phone2.length() < 6 || phone2.length() > 13) {
             check = false;
             etMobile.setError("Not a valid mobile number");
+          //  final Animation shake= AnimationUtils.loadAnimation(this,R.anim.shake);
+           // etMobile.setOnClickListener(new View.OnClickListener() {
+             //   @Override
+               // public void onClick(View view) {
+                 //   etMobile.startAnimation(shake);
+
+                //}
+         //   });
+
         }
         return check;
     }

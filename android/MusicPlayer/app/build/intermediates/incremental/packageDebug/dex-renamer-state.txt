@@ -1,4 +1,4 @@
-#Sun Jan 29 06:13:00 GMT-08:00 2017
+#Sat Feb 18 20:51:44 IST 2017
 base.0=F\:\\Android\\AndroidStudioProjects\\MusicPlayer\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_58265adbd13a78ecc488e6afce8b3113ae8389cd
 renamed.1=classes.dex
 renamed.0=classes2.dex

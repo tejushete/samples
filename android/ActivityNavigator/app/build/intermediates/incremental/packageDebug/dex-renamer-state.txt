@@ -1,0 +1,7 @@
+#Sat Feb 18 23:57:21 IST 2017
+base.0=F\:\\Android\\AndroidStudioProjects\\ActivityNavigator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a068d9d6145dbe34c9ea1818563232f8382ea639
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\Android\\AndroidStudioProjects\\ActivityNavigator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4207a54bc34859e91dea7e0588df1deb8c24fed3\\classes.dex
+base.1=F\:\\Android\\AndroidStudioProjects\\ActivityNavigator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4207a54bc34859e91dea7e0588df1deb8c24fed3
+file.0=F\:\\Android\\AndroidStudioProjects\\ActivityNavigator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a068d9d6145dbe34c9ea1818563232f8382ea639\\classes.dex

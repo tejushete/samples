@@ -1,0 +1,7 @@
+#Thu Feb 09 13:22:36 IST 2017
+base.0=F\:\\Android\\AndroidStudioProjects\\Sendmsgs\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2e026d24f9cd4b752e4570c51ab229d482970b69
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\Android\\AndroidStudioProjects\\Sendmsgs\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2e2ae24d47f3e10b47efe41582a6f7c812c4aee6\\classes.dex
+base.1=F\:\\Android\\AndroidStudioProjects\\Sendmsgs\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2e2ae24d47f3e10b47efe41582a6f7c812c4aee6
+file.0=F\:\\Android\\AndroidStudioProjects\\Sendmsgs\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2e026d24f9cd4b752e4570c51ab229d482970b69\\classes.dex

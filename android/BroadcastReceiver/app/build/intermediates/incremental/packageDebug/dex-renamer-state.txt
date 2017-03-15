@@ -1,0 +1,7 @@
+#Thu Feb 09 13:23:45 IST 2017
+base.0=F\:\\Android\\AndroidStudioProjects\\BroadcastReceiver\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_eaf4583ddf05effea5f5b69a7ad3cbbd18f355b2
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\Android\\AndroidStudioProjects\\BroadcastReceiver\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a61597c5ca296d5db544f9a01bc339dd8283cd4d\\classes.dex
+base.1=F\:\\Android\\AndroidStudioProjects\\BroadcastReceiver\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a61597c5ca296d5db544f9a01bc339dd8283cd4d
+file.0=F\:\\Android\\AndroidStudioProjects\\BroadcastReceiver\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_eaf4583ddf05effea5f5b69a7ad3cbbd18f355b2\\classes.dex

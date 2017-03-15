@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:text="Name:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tvUserName" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:layout_gravity="center"
+            android:id="@+id/etUserName"
+            android:textSize="20dp"
+            android:text="dummy"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:text="Email:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tvUserEmail" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:layout_gravity="center"
+            android:id="@+id/etUserEmail"
+            android:textSize="20dp"
+            android:text="dummy"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:text="Gender:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tvUserGender" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:layout_gravity="center"
+            android:id="@+id/etUserGender"
+            android:textSize="20dp"
+            android:text="dummy"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:text="DOB:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tvUserDOB" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:layout_gravity="center"
+            android:id="@+id/etUserDOB"
+            android:textSize="20dp"
+            android:text="dummy"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:text="Mobile:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tvUserMobile" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:layout_gravity="center"
+            android:id="@+id/etUserMobile"
+            android:textSize="20dp"
+            android:text="dummy"/>
+
+    </LinearLayout>
+</LinearLayout>

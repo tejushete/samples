@@ -1,44 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64,x86"
+    abi="armeabi-v7a,armeabi"
     api-level="23"
-    density="420dpi"
+    density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="426357697928222"
+    timestamp="7725936845046"
     token="-4345952813042751586"
-    verifier="CLASS_ADDED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="5184" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="898" />
+        duration="0" />
     <task
         name="verifier"
-        duration="57" />
+        duration="0" />
 
     <artifact
-        location="F:\Android\AndroidStudioProjects\MusicPlayer\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-        type="DEX" />
+        location="F:\Android\AndroidStudioProjects\MusicPlayer\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="424206485524615"
+        timestamp="7725936845046"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="F:\Android\AndroidStudioProjects\MusicPlayer\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="426357697928222"
-        verifier="CLASS_ADDED" >
-        <artifact
-            location="F:\Android\AndroidStudioProjects\MusicPlayer\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

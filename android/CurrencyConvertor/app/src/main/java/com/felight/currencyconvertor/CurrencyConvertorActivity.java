@@ -30,6 +30,8 @@ public class CurrencyConvertorActivity extends AppCompatActivity {
     private Spinner spCurrencyDestination;
     private EditText etCurrency1;
     private TextView tvResult;
+    private TextView tvListener;
+
 
     private Button btnConvert;
 

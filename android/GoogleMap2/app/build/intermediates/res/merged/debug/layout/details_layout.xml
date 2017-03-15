@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="1">
+
+    <TextView
+        android:text="LatLongi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/tvLatLong" />
+
+    <TextView
+        android:text="Place Name And Address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/tvPlaceNameAddress" />
+    <TextView
+        android:text="Rating"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/tvRating" />
+</LinearLayout>

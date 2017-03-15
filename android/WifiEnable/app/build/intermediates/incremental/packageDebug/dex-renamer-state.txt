@@ -1,0 +1,7 @@
+#Thu Feb 16 22:46:01 IST 2017
+base.0=F\:\\Android\\AndroidStudioProjects\\WifiEnable\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_85e89ee90a2ccfe0840721c909a820471838444b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=F\:\\Android\\AndroidStudioProjects\\WifiEnable\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ee407f720a19f8f91e89441dccf7121609bbe9ca\\classes.dex
+base.1=F\:\\Android\\AndroidStudioProjects\\WifiEnable\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ee407f720a19f8f91e89441dccf7121609bbe9ca
+file.0=F\:\\Android\\AndroidStudioProjects\\WifiEnable\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_85e89ee90a2ccfe0840721c909a820471838444b\\classes.dex
