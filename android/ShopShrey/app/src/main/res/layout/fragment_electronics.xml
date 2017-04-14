@@ -1,0 +1,96 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shopshrey.ElectronicsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/llElectronicsGridViewLoading"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"></LinearLayout>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:id="@+id/ivGridViewLoading"
+            android:src="@drawable/loading"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/llElectronicsGridView"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_height="55dp"
+            android:weightSum="1">
+            <LinearLayout
+                android:layout_width="3dp"
+                android:layout_height="match_parent"></LinearLayout>
+            <Button
+                android:text="TV's"
+                android:layout_width="105dp"
+                android:background="#4CAF50"
+                android:textSize="13dp"
+                android:id="@+id/btnTelevisions"
+                android:layout_height="55dp" />
+            <Button
+                android:text="Laptops"
+                android:layout_width="83dp"
+                android:background="#4CAF50"
+                android:id="@+id/btnLaptops"
+                android:textSize="13dp"
+                android:layout_height="55dp" />
+
+            <Button
+                android:text="Mobiles"
+                android:textSize="13dp"
+                android:background="#4CAF50"
+                android:id="@+id/btnMobileElectronics"
+                android:layout_width="80dp"
+                android:layout_height="55dp" />
+
+            <Button
+                android:text="Smart Watches"
+                android:layout_width="85dp"
+                android:textSize="13dp"
+                android:background="#4CAF50"
+                android:id="@+id/btnWatches"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <GridView
+            android:layout_width="wrap_content"
+            android:id="@+id/gdElectronics"
+            android:visibility="visible"
+            android:numColumns="2"
+            android:layout_height="447dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llElectronicsError">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvElectronicsServerError"
+            android:textSize="23dp"
+            android:textColor="#0000ff"
+            android:textStyle="italic"
+            android:paddingLeft="23dp"
+            android:paddingTop="150dp"
+            android:layout_gravity="center"
+            android:text="........Internet is not connected And Server Connection is not available......."/>
+    </LinearLayout>
+
+
+</FrameLayout>

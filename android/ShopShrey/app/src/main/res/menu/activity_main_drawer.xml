@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fashion"
+            android:icon="@drawable/fashion"
+            android:title="Fashion" />
+        <item
+            android:id="@+id/nav_electronics"
+            android:icon="@drawable/electronics"
+            android:title="Electronics" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/livingroom"
+            android:title="Home and Furniture" />
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/stationary"
+            android:title="Stationary" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/guitar"
+            android:title="Musical Instruments" />
+    </group>
+
+
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_notifications"
+                android:icon="@drawable/notification"
+                android:title="Notifications" />
+
+    </group>
+
+    <group android:id="@+id/group3" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myRewards"
+            android:icon="@drawable/rewards"
+            android:title="My Rewards" />
+        <item
+            android:id="@+id/nav_myCart"
+            android:icon="@drawable/cart"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/nav_myWish"
+            android:icon="@drawable/wishlist"
+            android:title="My Wishlist" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/order"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/user"
+            android:title="My Account" />
+    </group>
+    <group android:id="@+id/group4" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help Centre" />
+        <item
+                android:id="@+id/nav_legal"
+                  android:title="Legal" />
+    </group>
+
+</menu>

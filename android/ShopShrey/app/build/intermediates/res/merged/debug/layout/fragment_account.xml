@@ -1,0 +1,96 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/flAccount"
+    tools:context="com.example.shopshrey.AccountFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#23338A"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="130dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:minLines="1"
+        android:maxLines="5"
+        android:singleLine="false"
+        android:gravity="fill"
+        android:text="Sign in to access your Orders,Wishlist and Recommendations."
+        />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/account_shop"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Mobile no."
+        android:layout_marginRight="10dp"
+           android:inputType="numberDecimal"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:layout_height="70dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Password"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="10dp"
+            android:inputType="textPassword"
+            android:paddingRight="10dp"
+
+            android:layout_height="70dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="20dp"
+            android:textColor="#23338A"
+            android:layout_gravity="center"
+            android:text="Forgot Password?"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnAccountSignUp"
+            android:background="#FF7F00"
+            android:text="SIGN IN"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:background="#ffffff"
+            android:textColor="#23338A"
+            android:textSize="13dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnNewUser"
+            android:text="New to ShopShrey? SIGNUP"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="230dp" />
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

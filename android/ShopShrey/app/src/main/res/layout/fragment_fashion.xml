@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shopshrey.FashionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/llFashionGridViewLoading"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"></LinearLayout>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:id="@+id/ivGridViewLoading"
+        android:src="@drawable/loading"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/llFashionGridView"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="55dp">
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="55dp">
+            </LinearLayout>
+            <Button
+                android:text="Men"
+                android:layout_width="100dp"
+                android:background="#4CAF50"
+                android:id="@+id/btnMenFashion"
+                android:layout_height="50dp" />
+
+            <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="30dp"></LinearLayout>
+            <Button
+                android:text="Women"
+                android:background="#4CAF50"
+                android:id="@+id/btnWomenFashion"
+                android:layout_width="100dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <GridView
+            android:layout_width="match_parent"
+            android:id="@+id/gdFashion"
+            android:visibility="visible"
+            android:numColumns="2"
+            android:clickable="true"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llFashionError">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFashionServerError"
+            android:textSize="23dp"
+            android:textColor="#0000ff"
+
+            android:textStyle="italic"
+            android:paddingLeft="23dp"
+            android:paddingTop="150dp"
+            android:layout_gravity="center"
+            android:text="........Internet is not connected And Server Connection is not available......."/>
+    </LinearLayout>
+
+</FrameLayout>

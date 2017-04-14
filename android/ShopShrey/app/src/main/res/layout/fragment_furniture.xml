@@ -1,0 +1,101 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shopshrey.FurnitureFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/llFurnitureGridViewLoading"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"></LinearLayout>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:id="@+id/ivGridViewLoading"
+            android:src="@drawable/loading"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/llFurnitureGridView"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="55dp"
+            android:background="#4CAF50"
+            android:weightSum="1">
+            <Button
+                android:text="Home\nDecor"
+                android:layout_width="65dp"
+                android:background="#4CAF50"
+                android:textSize="10dp"
+                android:id="@+id/btnHomeDecor"
+                android:layout_height="55dp" />
+
+            <Button
+                android:text="Kitchen and Dining"
+                android:layout_width="78dp"
+                android:background="#4CAF50"
+                android:id="@+id/btnKitchen"
+                android:textSize="10dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:text="Home Furnishing"
+                android:textSize="10dp"
+                android:id="@+id/btnfurniture"
+                android:background="#4CAF50"
+                android:layout_width="82dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:text="Tools and Hardware"
+                android:layout_width="75dp"
+                android:textSize="10dp"
+                android:background="#4CAF50"
+                android:id="@+id/btnTools"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:text="Home\nClean"
+                android:layout_width="65dp"
+                android:background="#4CAF50"
+                android:textSize="10dp"
+                android:id="@+id/btnHomeClean"
+                android:layout_height="55dp" />
+
+        </LinearLayout>
+        <GridView
+            android:layout_width="wrap_content"
+            android:id="@+id/gdFurniture"
+            android:visibility="visible"
+            android:numColumns="2"
+            android:layout_height="447dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llFurnitureError">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFurnitureServerError"
+            android:textSize="23dp"
+            android:textColor="#0000ff"
+            android:textStyle="italic"
+            android:paddingLeft="23dp"
+            android:paddingTop="150dp"
+            android:layout_gravity="center"
+            android:text="........Internet is not connected And Server Connection is not available......."/>
+    </LinearLayout>
+
+</FrameLayout>
