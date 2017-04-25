@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StudentBioData</string>
+    <string name="title_activity_all_students">AllStudents</string>
+    <string name="title_activity_details">DetailsActivity</string>
+</resources>

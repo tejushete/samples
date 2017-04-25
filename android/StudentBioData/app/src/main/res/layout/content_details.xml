@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.studentbiodata.DetailsActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="40dp"
+                    android:text="1) CANDIDATE NAME:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="15dp"
+                    android:text="Kiran Nalawade"
+                    android:id="@+id/tvNameDetails"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="2) FATHER'S/HUSBAND'S NAME:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Dilip Nana Nalawade"
+                    android:id="@+id/tvForHName"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="3) FATHER'S/HUSBAND'S OCCUPATION:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Bus Conductor"
+                    android:id="@+id/tvForHOccu"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="4) MOTHER'S NAME:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/tvMomName"
+                    android:text="Sujata Nalawade"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="5) MOTHER'S OCCUPATION:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="House Wife"
+                    android:id="@+id/tvMomOccu"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="6) DATE OF BIRTH AND AGE:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="23/01/1991"
+                    android:id="@+id/tvDob"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:id="@+id/lvAgeView"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="26 years 3 months"
+                    android:id="@+id/tvAgeDetails"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="7) PRESENT ADDRESS:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:minLines="1"
+                    android:maxLines="10"
+                    android:singleLine="false"
+                    android:text="603, 2nd floor, 2nd house, 27th Main, BTM Layout Stage 2. Bangalore - 560076."
+                    android:id="@+id/tvCurrAddress"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="8) PERMANENT ADDRESS:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="same as above"
+                    android:id="@+id/tvPermAddress"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="9) MOBILE NO:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="9986728660"
+                    android:id="@+id/tvMobileNo"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="10) Email Id:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="kiran.d.nalawade@gmail.com"
+                    android:id="@+id/tvEmailId"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="11) Experience:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="4.5 years"
+                    android:id="@+id/tvExperience"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="12) CASTE:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Hindu Maratha"
+                    android:id="@+id/tvCaste"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="13) EXPERIENCE/DESIGNATION :"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Lead Engg."
+                    android:id="@+id/tvDesignation"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="14) WORK LOCATION :"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Doddanekundi, Marathalli"
+                    android:id="@+id/tvWorkLocation"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="200dp"
+                    android:textSize="15dp"
+                    android:layout_height="50dp"
+                    android:text="15) THREE REFERENCES:"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:numColumns="5"
+                android:id="@+id/gvDetails"></GridView>
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
