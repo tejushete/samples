@@ -35,6 +35,8 @@ public class databaseHandler extends SQLiteOpenHelper{
     private static final String KEY_DESIGNATION = "designation";
     private static final String KEY_WORK_LOCATION = "workLocation";
 
+    private static final String KEY_IMAGE = "image";
+
     private static final String KEY_STUDENTS_MOBILE = "studentsMobileNo";
 
     private static final String KEY_COMPANY_NAME = "companyName";
@@ -53,7 +55,7 @@ public class databaseHandler extends SQLiteOpenHelper{
                 KEY_MOM_NAME+" TEXT," + KEY_MOM_OCCU +" TEXT," + KEY_DOB + " TEXT," + KEY_AGE + " TEXT," +
                 KEY_PRESENT_ADDRESS+" TEXT," + KEY_PERMANENT_ADDRESS + " TEXT," + KEY_MOBILE_NO +" TEXT," +
                 KEY_EMAIL+" TEXT, " +KEY_EXPERIENCE+" TEXT, " +KEY_CASTE+" TEXT, " +KEY_DESIGNATION+" TEXT, " +
-                KEY_WORK_LOCATION+" TEXT, " +
+                KEY_WORK_LOCATION+" TEXT, " + KEY_IMAGE+" TEXT, " +
                 "PRIMARY KEY("+KEY_MOBILE_NO+")"+");";
 
         db.execSQL(CREATE_STUDENTS_TABLE);
@@ -108,6 +110,7 @@ public class databaseHandler extends SQLiteOpenHelper{
         values.put(KEY_CASTE, s.getCaste());
         values.put(KEY_DESIGNATION, s.getDesignation());
         values.put(KEY_WORK_LOCATION, s.getWorkLocation());
+        values.put(KEY_IMAGE, s.getmEncodedPic());
 
         Log.d("TAG", "student table ret:"+db.insert(STUDENT_TABLE_NAME, null, values));
         Log.d("TAG", "student entry added");
@@ -144,10 +147,10 @@ public class databaseHandler extends SQLiteOpenHelper{
                 s.setCaste(cursor.getString(12));
                 s.setDesignation(cursor.getString(13));
                 s.setWorkLocation(cursor.getString(14));
+                s.setmEncodedPic(cursor.getString(15));
 
                 sList.add(s);
                 int referenceReadCounter = 0;
-                reference rs[] = new reference[3];
 
                 Cursor referencesCursor = db.rawQuery("select * from "+REFERENCES_TABLE_NAME ,null);
                 if (referencesCursor.moveToFirst()) {
@@ -162,6 +165,7 @@ public class databaseHandler extends SQLiteOpenHelper{
 
                         String mobile = referencesCursor.getString(5);
 
+                        Log.d("TAG<><>", r.getName()+","+r.getCompanyName()+","+r.getContactNo()+","+r.getEmailId()+", "+r.getKnownYears());
                         if(mobile.equals(s.getMobileNo())){
                             if(referenceReadCounter == 0){
                                 s.setRef1(r);
@@ -171,7 +175,8 @@ public class databaseHandler extends SQLiteOpenHelper{
                                 s.setRef3(r);
                             }
                             Log.d("<>", "found ref "+r.getName()+", "+r.getCompanyName()+", "+referenceReadCounter);
-                            rs[referenceReadCounter++] = r;
+
+                            referenceReadCounter++;
                         }
 
                         referencesCursor.moveToNext();

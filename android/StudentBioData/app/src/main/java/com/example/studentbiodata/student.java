@@ -22,6 +22,16 @@ public class student {
     private String designation;
     private String workLocation;
 
+    public String getmEncodedPic() {
+        return mEncodedPic;
+    }
+
+    public void setmEncodedPic(String mEncodedPic) {
+        this.mEncodedPic = mEncodedPic;
+    }
+
+    private String mEncodedPic;
+
     reference ref1, ref2, ref3;
 
     public String getName() {

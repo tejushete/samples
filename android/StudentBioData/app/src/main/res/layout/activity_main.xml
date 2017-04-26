@@ -26,6 +26,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="right"
+        android:id="@+id/ivPic"
         android:src="@drawable/blank_photo" />
     </LinearLayout>
 

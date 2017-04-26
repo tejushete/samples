@@ -1,17 +1,24 @@
 package com.example.studentbiodata;
 
+import android.Manifest;
 import android.app.DatePickerDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.icu.util.Calendar;
+import android.net.Uri;
 import android.os.Build;
+import android.provider.MediaStore;
 import android.support.annotation.RequiresApi;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Base64;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -25,10 +32,12 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.ByteArrayOutputStream;
 import java.util.Date;
 
 public class MainActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener{
@@ -37,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     gridAdapter mGridAdapter;
     int date = 26, month = 11, year = 1991;
     reference ref1 = new reference(), ref2 = new reference(), ref3 = new reference();
+    Bitmap mBitmap = null;
 
     private void clearForm(){
         ((EditText)findViewById(R.id.etName)).setText("");
@@ -80,11 +90,24 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ActivityCompat.requestPermissions(this,
+                new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
+
         gVReferences = (GridView)findViewById(R.id.gvReferences);//grid view references
         mGridAdapter = new gridAdapter(this);
         gVReferences.setAdapter(mGridAdapter);
 
         sharedData.mDataBaseHandler = new databaseHandler(this);
+
+        ImageView iv = (ImageView)findViewById(R.id.ivPic);
+        iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_PICK,
+                        MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+                startActivityForResult(intent,0);
+            }
+        });
 
         Button btnDatePicker = (Button)findViewById(R.id.btnDOB);
         btnDatePicker.setOnClickListener(new View.OnClickListener() {
@@ -144,6 +167,17 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                 s.setName(name);
                 s.setCaste(caste);
 
+                String mEncodedPic = "";
+                ByteArrayOutputStream stream = new ByteArrayOutputStream();
+                if(mBitmap == null){
+                    mBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.blank_photo);
+                }
+                mBitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
+                byte[] byteArray = stream.toByteArray();
+                mEncodedPic = Base64.encodeToString(byteArray, Base64.DEFAULT);
+
+                s.setmEncodedPic(mEncodedPic);
+
                 s.setRef1(ref1);
                 s.setRef2(ref2);
                 s.setRef3(ref3);
@@ -151,6 +185,10 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                 sharedData.mDataBaseHandler.addStudent(s);
 
                 clearForm();
+
+                ((ImageView) findViewById(R.id.ivPic)).setImageResource(R.drawable.blank_photo);
+
+                ((LinearLayout)findViewById(R.id.lvAgeView)).setVisibility(View.GONE);
 
                 Toast.makeText(MainActivity.this, "Registered Successfully", Toast.LENGTH_LONG);
 
@@ -172,12 +210,62 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         return super.onOptionsItemSelected(item);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {
         Log.d("TAG", i+","+i1+","+i2+".");
         year = i;
         month = i1+1;
         date = i2;
+
+        double age = year + (float)month/12.0;
+        Calendar calendar = Calendar.getInstance();
+        int todaysYear = calendar.get(Calendar.YEAR);
+        int todaysMonth = calendar.get(Calendar.MONTH);
+
+        age = (todaysYear+(float)todaysMonth/12.0) - age;
+        age = Math.round(age*100)/100;
+        String sAge = age + " years"; // age
+
+        ((LinearLayout)findViewById(R.id.lvAgeView)).setVisibility(View.VISIBLE);
+        ((TextView)findViewById(R.id.tvAge)).setText(sAge);
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        try {
+            // When an Image is picked
+            if (requestCode == 0) {
+                // Get the Image from data
+
+                Uri selectedImage = data.getData();
+                String[] filePathColumn = { MediaStore.Images.Media.DATA };
+
+                // Get the cursor
+                Cursor cursor = getContentResolver().query(selectedImage,
+                        filePathColumn, null, null, null);
+                // Move to first row
+                assert cursor != null;
+                cursor.moveToFirst();
+
+                int columnIndex = cursor.getColumnIndex(filePathColumn[0]);
+                String imgDecodableString = cursor.getString(columnIndex);
+                cursor.close();
+
+                ImageView mimageView;
+                mimageView = (ImageView)findViewById(R.id.ivPic);
+                Bitmap mphoto = BitmapFactory
+                        .decodeFile(imgDecodableString);
+                mimageView.setImageBitmap(mphoto);
+                mBitmap = mphoto;
+            }
+        } catch (Exception e) {
+            Toast.makeText(this, "Something went wrong", Toast.LENGTH_LONG)
+                    .show();
+        }
     }
 
     private class gridAdapter extends BaseAdapter{

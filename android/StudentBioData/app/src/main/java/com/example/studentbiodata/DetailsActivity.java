@@ -1,6 +1,8 @@
 package com.example.studentbiodata;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -9,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Base64;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,6 +19,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.EditText;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class DetailsActivity extends AppCompatActivity{
@@ -69,6 +73,17 @@ public class DetailsActivity extends AppCompatActivity{
         ((TextView)findViewById(R.id.tvWorkLocation)).setText(s.getWorkLocation());
         Log.d("<>", 16+"");
 
+        String mEncodedString = s.getmEncodedPic();
+        byte[] data = Base64.decode(mEncodedString, Base64.DEFAULT);
+
+        Bitmap bmp;
+        if(data.length == 0){
+          bmp =  BitmapFactory.decodeResource(getResources(), R.drawable.blank_photo);
+        }else{
+            bmp = BitmapFactory.decodeByteArray(data, 0, data.length);
+        }
+        ImageView iv = (ImageView)findViewById(R.id.ivPicDetail);
+        iv.setImageBitmap(bmp);
 
     }
 
@@ -128,6 +143,7 @@ public class DetailsActivity extends AppCompatActivity{
 
                 int row = i / 5 - 1;
                 int column = i % 5;
+
 
                 if(column == 0){
                     if(row == 0){
